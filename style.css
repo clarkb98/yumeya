@@ -1,0 +1,19 @@
+body {
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+#address {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    top: 69px;
+    margin: 20px;
+}
