@@ -1,13 +1,23 @@
 body {
-    color: blue;
+    color: #9D2933;
 }
 
 h1 {
     text-align: center;
 }
 
-#address {
+#japan-address {
     text-align: center;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+}
+
+#english-address {
+    text-align:center;
+}
+
+#name {
+    font-family: 'Yuji Hentaigana Akari', cursive;
+    font-family: 'Zen Antique Soft', serif;
 }
 
 footer {
