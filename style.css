@@ -1,18 +1,40 @@
-body {
+* {
+    box-sizing: border-box;
+    text-align: center;
     color: #9D2933;
+    margin: 0;
 }
 
 h1 {
-    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 20px;
 }
 
-#japan-address {
-    text-align: center;
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: 0%;
+}
+
+#address-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+
+.japan-address {
     font-family: 'Yuji Hentaigana Akari', cursive;
+    margin: 12px;
 }
 
-#english-address {
-    text-align:center;
+.english-address {
+    margin: 12px;
 }
 
 #name {
@@ -20,9 +42,22 @@ h1 {
     font-family: 'Zen Antique Soft', serif;
 }
 
+#family-crest {
+    position: absolute;
+    width: 10%;
+    left: 50%;
+    top: 20px;
+}
+
+#title {
+    text-align: left;
+    position: relative;
+    left: 30%;
+}
+
 footer {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     position: relative;
     top: 69px;
     margin: 20px;
