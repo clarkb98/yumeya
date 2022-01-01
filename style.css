@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-align: center;
     color: #9D2933;
     margin: 0;
 }
@@ -10,7 +11,7 @@ header {
 
 h1 {
     font-size: 40px;
-    width: 272px;
+    width: 275px;
 }
 
 #family-crest {
@@ -84,10 +85,6 @@ footer {
 }
 
 @media screen and (min-width: 481px) {
-    * {
-        text-align: center;
-    }
-    
     h1 {
         font-size: 40px;
         width: 272px;
