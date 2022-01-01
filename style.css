@@ -86,8 +86,8 @@ footer {
 
 @media only screen and (min-width: 481px) {
     body {
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 0%;
+        -ms-text-size-adjust: 0%;
     }
 
     h1 {
