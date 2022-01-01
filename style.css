@@ -84,7 +84,7 @@ footer {
     margin: 20px;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) and (orientation: landscape) {
     h1 {
         font-size: 40px;
         width: 272px;
