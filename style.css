@@ -5,10 +5,17 @@
     margin: 0;
 }
 
+header {
+    display: inline-flex;
+}
+
 h1 {
     font-size: 40px;
-    position: relative;
-    top: 20px;
+    width: 272px;
+}
+
+#family-crest {
+    width: 80px;
 }
 
 .address {
@@ -25,7 +32,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 21px;
+    top: -20px;
 }
 
 .japan-address {
@@ -40,19 +47,6 @@ h1 {
 #name {
     font-family: 'Yuji Hentaigana Akari', cursive;
     font-family: 'Zen Antique Soft', serif;
-}
-
-#family-crest {
-    position: absolute;
-    width: 10%;
-    left: 50%;
-    top: 1%;
-}
-
-#title {
-    text-align: left;
-    position: relative;
-    left: 30%;
 }
 
 main {
@@ -71,12 +65,14 @@ main {
 }
 
 .kimono-pic {
-    width: 50%;
+    min-width: 350px;
+    max-width: 50%;
     height: auto;
 }
 
 .kimono-size {
-    width: 50%;
+    min-width: 350px;
+    max-width: 50%;
     height: auto;
 }
 
@@ -86,4 +82,31 @@ footer {
     position: relative;
     top: 69px;
     margin: 20px;
+}
+
+@media screen and (min-width: 481px) {
+    h1 {
+        font-size: 40px;
+        width: 272px;
+        position: relative;
+        top: 40px;
+        left: -17%;
+    }
+
+    #family-crest {
+        position: relative;
+        height: 150px;
+        width: auto;
+        top: 20px;
+        left: -35%;
+    }
+
+    #address-block {
+        top: -55px;
+    }
+
+    main {
+        position: relative;
+        top: -50px;
+    }
 }
