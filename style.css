@@ -11,7 +11,7 @@ header {
 
 h1 {
     font-size: 40px;
-    width: 275px;
+    width: 355px;
 }
 
 #family-crest {
@@ -74,6 +74,7 @@ main {
     min-width: 350px;
     max-width: 50%;
     height: auto;
+    border: 1px solid black;
 }
 
 footer {
@@ -88,7 +89,7 @@ footer {
     h1 {
         position: relative;
         top: 40px;
-        left: -17%;
+        left: -12%;
     }
 
     #family-crest {
@@ -107,5 +108,10 @@ footer {
     main {
         position: relative;
         top: -50px;
+    }
+
+    .kimono-pic {
+        position: relative;
+        bottom: 102px;
     }
 }
