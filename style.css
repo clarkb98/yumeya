@@ -10,12 +10,12 @@ header {
 }
 
 h1 {
-    font-size: 40px;
-    width: 355px;
+    font-size: 30px;
+    width: 275px;
 }
 
 #family-crest {
-    width: 80px;
+    width: 60px;
 }
 
 .address {
@@ -90,6 +90,8 @@ footer {
         position: relative;
         top: 40px;
         left: -12%;
+        font-size: 40px;
+        width: 350px;
     }
 
     #family-crest {
